@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
     <title>Questions</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
+
 
 </head>
 <body>
@@ -15,15 +16,16 @@
         <P>ANSWER ALL QUESTIONS</P>
 
     </div>
-    <form class="questions"id='quiz'>
+    <form name="questions"id='quiz'>
         <div>
             <p>1. Which one of the following is a data type supported by javascript?</p>
-            <p><input type="radio" name="question 1" id="" value="Boolean">Boolean</p>
-            <p><input type="radio" name="question 1" id="" value="int">int</p>
-            <p><input type="radio" name="question 1" id="" value="Short int">short int</p>
-            <p><input type="radio" name="question 1" id="" value="Unsigned int">unsigned int</p>
+            <p><input type="radio" name="question1" id="" value="Boolean">Boolean</p>
+            <p><input type="radio" name="question1" id="" value="int">int</p>
+            <p><input type="radio" name="question1" id="" value="Short int">short int</p>
+            <p><input type="radio" name="question1" id="" value="Unsigned int">unsigned int</p>
 
         </div>
+       
         <div>
             <p>2.Which one of the following is a limitation of javascript file?</p>
             <p><input type="radio" name="question 2" id=""value="Cannot perform any logical operations">cannot perform any logical operation</p>
@@ -52,6 +54,7 @@
             <p><input type="radio" name="question 5" id=""value="It is used to turn false value to true and vice versa">It is used to turn false value to true and vice versa</p>
             <p><input type="radio" name="question 5" id=""value="Adding elements into our array">Adding elements into our array</p>
         </div>
+        <input type="button" value="submit" onclick="myButton()">
     </form>
     
     
