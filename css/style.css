@@ -3,7 +3,8 @@
     text-align: center;
 }
 body{
-    background-color: white
+    background-color: white;
+    border:1px solid black;
 }
 #quiz h1{
     /* border:1px solid black; */
