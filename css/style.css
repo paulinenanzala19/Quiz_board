@@ -1,6 +1,7 @@
 .body h1{
     /* border: 1px solid black; */
     text-align: center;
+    width: 30%;
 }
 body{
     background-color: white;
@@ -29,6 +30,6 @@ body p{
     font-size: 20px;
     color: white;
 }
-.X{
+.rose{
     border: 1px black;
 }
