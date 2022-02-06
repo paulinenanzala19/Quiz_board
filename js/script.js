@@ -21,8 +21,4 @@ if (score>80){
 }   else{
     result.textContent='you scored'+ score + 'you have scored poorly and you need to retake the test'
 }
-
-    // document.write("your score"+correct);
-    // document.write(score);
-    
 }
