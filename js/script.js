@@ -13,7 +13,16 @@ function myButton(){
     if (currentAnswer5=="Allow us to run the code multiple times depending on whether a condition remains true"){score+=20};
     questions.style.display="none"
     result.textContent=score;
+
+if (score>80){
+    result.textContent='congratulations! you scored' + score + 'you have excellently passed'
+}  else if(score=>50){
+    result.textContent='congratulations! you scored' + score + 'you have fairly passed'
+}   else{
+    result.textContent='you scored'+ score + 'you have scored poorly and you need to retake the test'
+}
+
     // document.write("your score"+correct);
     // document.write(score);
     
- }
+}
