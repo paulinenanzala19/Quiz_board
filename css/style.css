@@ -4,7 +4,11 @@
 }
 body{
     background-color: white;
-    border:1px solid black;
+    /* border:1px solid black; */
+    /* margin-left: 150px; */
+}
+body p{
+    text-align: 20px left;
 }
 #quiz h1{
     /* border:1px solid black; */
