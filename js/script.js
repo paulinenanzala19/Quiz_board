@@ -16,7 +16,7 @@ function myButton(){
 
 if (score>80){
     result.textContent='congratulations! you scored' + score + 'you have excellently passed'
-}  else if(score=>50){
+}  else if(score>=50){
     result.textContent='congratulations! you scored' + score + 'you have fairly passed'
 }   else{
     result.textContent='you scored'+ score + 'you have scored poorly and you need to retake the test'
